@@ -1,0 +1,27 @@
+{
+  "name": "react-native-quill",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "expo": "^25.0.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
+    "react-quill": "^1.2.6",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start-native": "react-native-scripts start",
+    "eject-native": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test-native": "node node_modules/jest/bin/jest.js --watch",
+    "test-both": "npm run test-web && npm run test-native",
+    "cleanup": "rm -rf $TMPDIR/haste-map-react-native-packager-*  && rm -rf $TMPDIR/react-* && yarn cache clean && yarn"
+  }
+}
